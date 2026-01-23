@@ -213,7 +213,7 @@ section ul li {
 }
 
 .certificates img {
-    width: 75%;
+    width: 200px;
     height: 180px;
     object-fit: contain;
     background-color: #fff;
@@ -269,7 +269,8 @@ hr {
     }
 
     .certificates img {
-        height: 150px;
+        height: 500px;
+        width: 150px;
         padding: 12px;
     }
 }
