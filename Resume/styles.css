@@ -1,3 +1,15 @@
+/* Springer Color Palette Variables */
+:root {
+    --primary-dark: #045149;
+    --primary-medium: #21664d;
+    --primary-light: #bfdbdd;
+    --neutral-light: #f3f0e4;
+    --neutral-lighter: #e6eaef;
+    --accent-dark: #003a37;
+    --accent-medium: #15543c;
+    --text-dark: #003a37;
+    --text-medium: #15543c;
+}
 
 * {
     margin: 0;
@@ -8,8 +20,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
+    color: var(--text-dark);
+    background-color: var(--neutral-lighter);
     padding: 20px;
 }
 
@@ -28,24 +40,25 @@ header table {
 
 header img {
     border-radius: 50%;
-    border: 3px solid #2c3e50;
+    border: 3px solid var(--primary-dark);
     object-fit: cover;
 }
 
 header h1 {
-    color: #2c3e50; 
+    color: var(--primary-dark);
+    font-size: 2.5em;
     margin-bottom: 5px;
 }
 
 header h2 {
-    color: #34495e;
+    color: var(--primary-medium);
     font-size: 1.3em;
     font-weight: 400;
     margin-bottom: 10px;
 }
 
 header h4 {
-    color: #7f8c8d;
+    color: var(--text-medium);
     font-weight: 400;
     line-height: 1.8;
 }
@@ -57,7 +70,7 @@ nav {
 
 nav hr {
     border: none;
-    border-top: 2px solid #ecf0f1;
+    border-top: 2px solid var(--primary-light);
     margin: 10px 0;
 }
 
@@ -74,7 +87,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #2c3e50;
+    color: var(--primary-medium);
     text-decoration: none;
     font-size: 1.1em;
     padding: 8px 16px;
@@ -83,7 +96,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #3498db;
+    background-color: var(--primary-dark);
     color: #fff;
 }
 
@@ -97,15 +110,15 @@ section {
 }
 
 section h2 {
-    color: #2c3e50;
+    color: var(--primary-dark);
     font-size: 2em;
     margin-bottom: 15px;
-    border-bottom: 3px solid #3498db;
+    border-bottom: 3px solid var(--primary-medium);
     padding-bottom: 10px;
 }
 
 section h3 {
-    color: #34495e;
+    color: var(--primary-medium);
     font-size: 1.5em;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -117,14 +130,14 @@ section p {
 }
 
 section a {
-    color: #3498db;
+    color: var(--primary-medium);
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
 section a:hover {
-    color: #2980b9;
+    color: var(--primary-dark);
     text-decoration: underline;
 }
 
@@ -139,23 +152,23 @@ section ul li {
 }
 
 section ul li strong {
-    color: #2c3e50;
+    color: var(--primary-dark);
 }
 
 
 hr {
     border: none;
-    border-top: 1px solid #ecf0f1;
+    border-top: 1px solid var(--primary-light);
     margin: 20px 0;
 }
 
 
 #skills ul li {
-    background-color: #ecf0f1;
+    background-color: var(--neutral-light);
     padding: 12px;
     border-radius: 5px;
     margin-bottom: 8px;
-    border-left: 4px solid #3498db;
+    border-left: 4px solid var(--primary-medium);
 }
 
 
@@ -164,7 +177,7 @@ hr {
 }
 
 #experience ul ul li {
-    color: #555;
+    color: var(--text-medium);
     font-size: 0.95em;
 }
 
@@ -175,7 +188,7 @@ hr {
 
 #contact a {
     display: inline-block;
-    background-color: #3498db;
+    background-color: var(--primary-medium);
     color: #fff;
     padding: 12px 30px;
     border-radius: 5px;
@@ -185,7 +198,7 @@ hr {
 }
 
 #contact a:hover {
-    background-color: #2980b9;
+    background-color: var(--primary-dark);
     text-decoration: none;
 }
 
