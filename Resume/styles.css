@@ -206,13 +206,14 @@ section ul li {
 
 
 #images{
-    padding-left: 980px;
     display: grid;
-    justify-content: center;
     align-items: center;
-    height: 100px;
-    width: 100px;
-    background-color: #f5f4f0;
+}
+
+img{
+    align-items: center;
+    height: 950px;
+    width: 1345px;
 }
 
 .certificates img:hover {
